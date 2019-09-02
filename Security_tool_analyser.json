@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "title": "Security tool",
+    "owner": "VIF",
+    "description": "Threat modelling tool"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Remote communication",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0,
+        "$$hashKey": "object:14"
+      }
+    ],
+    "reviewer": "SECREDAS"
+  }
+}
