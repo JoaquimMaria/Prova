@@ -13,17 +13,17 @@
         "diagramJson": {
           "cells": [
             {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "size": {
-                "width": 100,
-                "height": 100
+                "width": 160,
+                "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 220,
+                "y": 111
               },
               "angle": 0,
-              "id": "62c20c6b-3fb3-4aaa-a8c8-b47619747159",
+              "id": "036e120e-e398-4baf-b52b-fcbd008117f9",
               "z": 1,
               "hasOpenThreats": false,
               "attrs": {
@@ -31,7 +31,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "Driver"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -45,11 +45,11 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 509,
+                "y": 228
               },
               "angle": 0,
-              "id": "b4926dc3-42ee-4c20-a546-b098025adfc9",
+              "id": "e81aa715-699e-4d9c-9313-a389393c71d7",
               "z": 2,
               "hasOpenThreats": false,
               "attrs": {
@@ -57,7 +57,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Path planning"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -71,11 +71,11 @@
                 "height": 80
               },
               "position": {
-                "x": 274,
-                "y": 301
+                "x": 474,
+                "y": 442
               },
               "angle": 0,
-              "id": "27ab8978-bc05-469d-acd2-bb5497bba943",
+              "id": "f61e210c-b7dd-4ace-b38c-898f7a540902",
               "z": 3,
               "hasOpenThreats": false,
               "attrs": {
@@ -83,33 +83,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 2"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 374,
-                "y": 134
-              },
-              "angle": 0,
-              "id": "363154fb-56a8-4419-8ec7-15bd17b48989",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "store 3"
+                  "text": "Maps data"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -119,8 +93,8 @@
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 1344.140625,
+          "width": 1605.40625
         }
       }
     ]
