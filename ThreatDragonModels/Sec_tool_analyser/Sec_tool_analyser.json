@@ -108,10 +108,13 @@
               "id": "e9861127-5590-4506-bb5a-1b47a7684745",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.6153699266907189,
+                    "offset": -4.62721003559993
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 3",
+                      "text": "Map request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -147,10 +150,13 @@
               "id": "2a82ebe7-7b0d-4e57-bfb7-af7ae882d364",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.3537526074156037,
+                    "offset": 8.28834500659986
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 4",
+                      "text": "Map info",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -158,6 +164,108 @@
                 }
               ],
               "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 408,
+                "y": 409
+              },
+              "target": {
+                "x": 708,
+                "y": 410
+              },
+              "vertices": [
+                {
+                  "x": 560,
+                  "y": 368
+                }
+              ],
+              "id": "48299ab7-426c-425f-8461-a0ecde106b39",
+              "z": 6,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "e81aa715-699e-4d9c-9313-a389393c71d7"
+              },
+              "target": {
+                "id": "036e120e-e398-4baf-b52b-fcbd008117f9"
+              },
+              "vertices": [
+                {
+                  "x": 440,
+                  "y": 168
+                }
+              ],
+              "id": "66b838ea-7684-40a2-b836-55b96aca88f5",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5203161819835357,
+                    "offset": 1.4713091615708687
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Route",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "036e120e-e398-4baf-b52b-fcbd008117f9"
+              },
+              "target": {
+                "id": "e81aa715-699e-4d9c-9313-a389393c71d7"
+              },
+              "vertices": [
+                {
+                  "x": 424,
+                  "y": 272
+                }
+              ],
+              "id": "aeb7e07b-cf9e-4e5a-8296-6c2b04b6c7ff",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Coordinates",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
