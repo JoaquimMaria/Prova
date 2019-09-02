@@ -206,8 +206,8 @@
               },
               "vertices": [
                 {
-                  "x": 440,
-                  "y": 168
+                  "x": 525,
+                  "y": 202
                 }
               ],
               "id": "66b838ea-7684-40a2-b836-55b96aca88f5",
@@ -248,14 +248,17 @@
               },
               "vertices": [
                 {
-                  "x": 424,
-                  "y": 272
+                  "x": 335,
+                  "y": 222
                 }
               ],
               "id": "aeb7e07b-cf9e-4e5a-8296-6c2b04b6c7ff",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.3656696008215264,
+                    "offset": 0.4264909815226525
+                  },
                   "attrs": {
                     "text": {
                       "text": "Coordinates",
@@ -275,6 +278,27 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 337,
+                "y": 308
+              },
+              "target": {
+                "x": 551,
+                "y": 106
+              },
+              "vertices": [
+                {
+                  "x": 475,
+                  "y": 243
+                }
+              ],
+              "id": "549f77ff-0ec3-496d-b5b0-df3d02d67f89",
+              "z": 9,
+              "attrs": {}
             }
           ]
         },
