@@ -389,6 +389,42 @@
                   "severity": "Medium",
                   "type": "Information disclosure",
                   "title": "Level of encryption"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "User obtain more privileges than permitted (Control privileges)",
+                  "type": "Elevation of privilege"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "No network signal (Signal quality)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "Network signal is attacked (Network control signal)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Force attack",
+                  "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "title": "communication possible attack (monitoring)",
+                  "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Massive cyber attack (Request limitation)",
+                  "type": "Denial of service"
                 }
               ],
               "attrs": {
