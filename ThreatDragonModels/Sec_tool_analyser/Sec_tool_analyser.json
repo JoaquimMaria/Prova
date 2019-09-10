@@ -382,13 +382,17 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "title": "Authentication could be obtained (Low authentification)"
+                  "title": "Authentication could be obtained (level authentification)",
+                  "description": "Low authentification level",
+                  "mitigation": "authentification Level should be high"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure",
-                  "title": "Level of encryption"
+                  "title": "Level of encryption",
+                  "description": "Low encryption level",
+                  "mitigation": "Improve encryption level"
                 },
                 {
                   "status": "Open",
