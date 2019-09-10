@@ -340,25 +340,33 @@
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Integrity data (digital signature)",
-                  "type": "Tampering"
+                  "type": "Tampering",
+                  "description": "Data integrity check",
+                  "mitigation": "Digital signature to protect integrity of the message"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Untruthful certificates (Certificate authorities)",
-                  "type": "Tampering"
+                  "type": "Tampering",
+                  "description": "Untruthful certificates",
+                  "mitigation": "Certificate authorities"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Corrupt message (validation identity)",
-                  "type": "Tampering"
+                  "type": "Tampering",
+                  "description": "Corrupt messages",
+                  "mitigation": "Validation identity"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "unsecure connection (chain of trust)",
-                  "type": "Tampering"
+                  "title": "Unsecure connection (chain of trust)",
+                  "type": "Tampering",
+                  "description": "Unsecure connection",
+                  "mitigation": "Chain of trust"
                 },
                 {
                   "status": "Open",
