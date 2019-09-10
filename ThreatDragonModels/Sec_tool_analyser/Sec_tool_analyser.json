@@ -402,13 +402,17 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "title": "No network signal (Signal quality)"
+                  "title": "No network signal (Signal quality)",
+                  "mitigation": "The network must have methods to control the absence of signal",
+                  "description": "Network signal is attacked"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "title": "Network signal is attacked (Network control signal)"
+                  "title": "Network signal is attacked (Network control signal)",
+                  "description": "A third agent is trying to collapse the communication",
+                  "mitigation": "control of massive packet chain attack"
                 },
                 {
                   "status": "Open",
