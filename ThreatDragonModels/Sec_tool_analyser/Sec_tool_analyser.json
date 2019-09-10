@@ -366,7 +366,7 @@
                   "title": "Unsecure connection (chain of trust)",
                   "type": "Tampering",
                   "description": "Unsecure connection",
-                  "mitigation": "Chain of trust"
+                  "mitigation": "Certificate issued by reliable authorities (Intermediate and root CA)"
                 },
                 {
                   "status": "Open",
