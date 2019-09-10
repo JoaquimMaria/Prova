@@ -276,9 +276,65 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "title": "Driver authentication",
+                  "title": "Non-authenticated driver (Driver authentication)",
                   "description": "The Driver must be authenticated",
                   "mitigation": "Authentication Control must be mandatory"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Malicious packet (Packet filter)",
+                  "type": "Spoofing",
+                  "description": "Communication channel can contain malicious packet information",
+                  "mitigation": "Packet filter must be implemented"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Sniffers can access to data (cryptographic network)",
+                  "type": "Spoofing",
+                  "description": "Sniffers can access to data",
+                  "mitigation": "Coordinates should be encrypted"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Authentication could be obtained (Low authentification)",
+                  "mitigation": "Strong authentification",
+                  "type": "Spoofing",
+                  "description": "Authentication could be obtained"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "False identity (Credentials)",
+                  "type": "Spoofing",
+                  "description": "The identity is false",
+                  "mitigation": "Credentials should be trustworthy"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "insufficient validation",
+                  "type": "Spoofing",
+                  "description": "Validations is just in one direction",
+                  "mitigation": "Two steps validation"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Privileges (Authorization control)",
+                  "type": "Spoofing",
+                  "description": "Driver get access to more control of the vehicle",
+                  "mitigation": "A authorization policy should be controlled"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Privileges (Authorization policy)",
+                  "description": "Driver get access to more control of the vehicle",
+                  "mitigation": "A authorization policy should be implemented",
+                  "type": "Spoofing"
                 }
               ],
               "attrs": {
