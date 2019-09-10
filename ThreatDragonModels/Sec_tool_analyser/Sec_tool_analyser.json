@@ -394,7 +394,9 @@
                   "status": "Open",
                   "severity": "Medium",
                   "title": "User obtain more privileges than permitted (Control privileges)",
-                  "type": "Elevation of privilege"
+                  "type": "Elevation of privilege",
+                  "mitigation": "Control Non-authorized messages",
+                  "description": "User obtain more privileges than permitted"
                 },
                 {
                   "status": "Open",
@@ -412,19 +414,25 @@
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Force attack",
-                  "type": "Denial of service"
+                  "type": "Denial of service",
+                  "mitigation": "Request limitation, injection testing",
+                  "description": "Force attack by massive injection"
                 },
                 {
                   "status": "Open",
                   "severity": "Low",
                   "title": "communication possible attack (monitoring)",
-                  "type": "Denial of service"
+                  "type": "Denial of service",
+                  "mitigation": "communication monitoring",
+                  "description": "communication possible attack"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Massive cyber attack (Request limitation)",
-                  "type": "Denial of service"
+                  "type": "Denial of service",
+                  "mitigation": "Logging limitation times",
+                  "description": "Intrusor is trying logging by force attack"
                 }
               ],
               "attrs": {
