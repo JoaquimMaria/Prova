@@ -335,6 +335,60 @@
                   "description": "Driver get access to more control of the vehicle",
                   "mitigation": "A authorization policy should be implemented",
                   "type": "Spoofing"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Integrity data (digital signature)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Untruthful certificates (Certificate authorities)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Corrupt message (validation identity)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "unsecure connection (chain of trust)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "data corrupted (data integrity)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Data chanel incorrect (Firewall)",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "title": "Communication intruder (digital certificate)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Authentication could be obtained (Low authentification)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Level of encryption"
                 }
               ],
               "attrs": {
