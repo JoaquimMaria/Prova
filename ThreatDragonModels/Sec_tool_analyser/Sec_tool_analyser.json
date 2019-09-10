@@ -363,20 +363,26 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "data corrupted (data integrity)",
-                  "type": "Tampering"
+                  "title": "Data corrupted (data integrity)",
+                  "type": "Tampering",
+                  "mitigation": "Data integrity methods",
+                  "description": "Data corrupted"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Data chanel incorrect (Firewall)",
-                  "type": "Tampering"
+                  "type": "Tampering",
+                  "mitigation": "Firewall activated to block other non allowed messages",
+                  "description": "Non allowed messages attacking the vehicle"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Repudiation",
-                  "title": "Communication intruder (digital certificate)"
+                  "title": "Communication intruder (digital certificate)",
+                  "description": "Communication intruder",
+                  "mitigation": "digital certificate"
                 },
                 {
                   "status": "Open",
