@@ -350,7 +350,7 @@
                   "title": "Untruthful certificates (Certificate authorities)",
                   "type": "Tampering",
                   "description": "Untruthful certificates",
-                  "mitigation": "Certificate authorities"
+                  "mitigation": "Certificate issued by reliable authorities"
                 },
                 {
                   "status": "Open",
